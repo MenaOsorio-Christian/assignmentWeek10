@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"/>
+</head>
+
+<!-- Create form task to fill -->
+<body class="container">
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-start-date">Start Date</label>
+                        <input type="date" class="form-control" id="new-start-date">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-end-date">End Date</label>
+                        <input type="date" class="form-control" id="new-end-date">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for-"new-task">To Do Task</label>
+                        <input type-"text" class="form-control" id="new-task" placeholder="Task">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="add" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+
+    <!-- Create a table to displayed the list of tasks created-->
+    <table id="list" class="table table-dark table-striped">
+        <tr>
+            <th>Task</th>
+            <th>Date Created</th>
+            <th>Start Date</th>
+            <th>Due Date</th>
+            <th>Delete</th>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <script src="./todo.js"></script>
+    <script scr="./node_modules/jquery/dist/jquery.js"
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <!-- Footer-->
+    <div class="container my-5">
+        <footer class="text-center text-lg-start text-white" style="background-color: #3e4551;">
+            <div class="text-center p-3">
+            <p>Assigment Week 10 Created by Christian Mena January 5th, 2024</p>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
